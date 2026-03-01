@@ -1,0 +1,51 @@
+body {
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #0d6efd, #4f8cff);
+  color: white;
+  border-radius: 16px;
+}
+
+/* FOTO PROFILE */
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 4px solid rgba(255,255,255,0.5);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Custom Card */
+.card-custom {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* Section Title */
+.section-title {
+  font-weight: 600;
+}
+
+/* Skill Box */
+.skill-box {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.skill-box:hover {
+  background: #e9f2ff;
+  transform: translateY(-4px);
+}
+
+/* Footer */
+footer {
+  color: #6c757d;
+}
